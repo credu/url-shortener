@@ -7,6 +7,7 @@
     "dev": "vite",
     "server": "mvn spring-boot:run -f ../url-shortener-api/pom.xml",
     "build": "vite build",
+    "build:backend": "vite build --emptyOutDir --outDir=../../url-shortener/url-shortener-api/src/main/resources/public",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "format": "prettier --write ."
